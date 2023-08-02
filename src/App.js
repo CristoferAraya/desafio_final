@@ -23,8 +23,7 @@ const App = () => {
                element={<RegisterView/>}/>
         <Route path= '/perfil'
                element={<PerfilView/>}/>  
-         <Route path= '/perfiledit'
-               element={<PerfilEdit/>}/> 
+         
      
 
 

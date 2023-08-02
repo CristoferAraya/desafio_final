@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:antiquewhite;
 }
 
 code {
@@ -21,11 +22,14 @@ code {
 footer {
   background-color: #333;
   color: #fff;
-  padding: 20px 0;
-  /* position: absolute; */
+  padding: 3rem;
+  margin-top:15px; 
+  width: 100%;
   /* bottom: 0; */
   /* width: 100%; */
 }
+
+
 
 .social-icons {
   list-style: none;
@@ -47,5 +51,10 @@ footer {
 }
 
 .social-icons a:hover {
+  color: #ccc;
+}
+
+.featured-card{
+  background-color: #333;
   color: #ccc;
 }

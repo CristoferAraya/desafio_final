@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { useState } from 'react';
 import { basePeluquerias } from '../services/basePeluquerias';
 import { SearchForm } from '../components/SearchForm';
+import {styles} from '../styles/home.css';
 
  const HomeView = () => {
   const [peluquerias] = useState(basePeluquerias);
@@ -38,7 +39,8 @@ import { SearchForm } from '../components/SearchForm';
 
   return (
     <>
-      <Container className='mt-5 mb-5'>
+      <Container
+       className='mt-5 mb-5'>
         <SearchForm onSearch={handleSearch} />
         <h3>Destacadas</h3>
         <Row>
@@ -60,5 +62,6 @@ import { SearchForm } from '../components/SearchForm';
     </>
   );
 };
+
 
 export default HomeView;

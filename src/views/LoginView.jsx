@@ -5,10 +5,12 @@ const LoginView = () => {
   return (
     <Container
       style={{
-        height: 'calc(100vh - 350px)',
+        height: '10rem',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: 'blue',
+        padding:'15rem'
       }}
     >
       <div className='mb-5 shadow-sm w-75'>
@@ -17,7 +19,7 @@ const LoginView = () => {
             md={7}
             className='rounded-start'
             style={{
-              backgroundColor: '#f8f9fa',
+              backgroundColor: 'writhe',
               padding: '3rem',
             }}
           >
@@ -30,15 +32,20 @@ const LoginView = () => {
             md={5}
             className='rounded-end'
             style={{
-              padding: '2rem',
+              padding: '5px',
+              marginTop: '15px',
+              backgroundColor: 'yellow',
+              
             }}
           >
             <h3>Inicia Sesión</h3>
             <Form
               style={{
+                padding:'',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '1rem',
+                with:'50%'
+               
               }}
             >
               <Form.Control
