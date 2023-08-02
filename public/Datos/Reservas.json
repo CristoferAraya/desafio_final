@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "negocio": "Peluqueria Canina 1",
+      "fecha": "Viernes 25 de Agosto del 2023",
+      "servicio": "Corte + lavado",
+      "estado": "activa"
+    },
+    {
+      "id": 2,
+      "negocio": "Peluqueria Canina 2",
+      "fecha": "miercoles 25 de Enero del 202",
+      "servicio": "Corte + Cepillado",
+      "estado": "completada"
+    },
+    {
+      "id": 3,
+      "negocio": "Peluqueria Canina 3",
+      "fecha": "Viernes 24 de Marzo del 2023",
+      "servicio": "Corte + Baño",
+      "estado": "completada"
+    },
+    {
+      "id": 4,
+      "negocio": "Peluqueria Canina 4",
+      "fecha": "Lunes 29 de Mayo del 2023",
+      "servicio": "Corte + Baño + Cepillado",
+      "estado": "completada"
+    },
+    {
+      "id": 4,
+      "negocio": "Peluqueria Canina 5",
+      "fecha": "Jueves 23 de Junio del 2023",
+      "servicio": "Corte + Baño + Cepillado",
+      "estado": "cancelada"
+    }
+  ]

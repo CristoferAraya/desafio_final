@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "nombre": "Corte + Lavado",
+      "precio": 45000,
+      "seleccionado": false
+    },
+    {
+      "id": 2,
+      "nombre": "Corte + Cepillado",
+      "precio": 35000,
+      "seleccionado": false
+    },
+    {
+      "id": 3,
+      "nombre": "Corte + Baño",
+      "precio": 45000,
+      "seleccionado": false
+    },
+    {
+      "id": 4,
+      "nombre": "Corte + Baño + Cepillado",
+      "precio": 55000,
+      "seleccionado": false
+    },
+    {
+      "id": 5,
+      "nombre": "Corte + Baño ",
+      "precio": 30000,
+      "seleccionado": false
+    },
+    {
+      "id": 6,
+      "nombre": "Cote + Cepillado",
+      "precio": 35000,
+      "seleccionado": false
+    }
+  ]

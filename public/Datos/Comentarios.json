@@ -1,0 +1,32 @@
+[
+    {
+      "autor": "Gustavo",
+      "texto": "Exelente servicio 100% recomendable",
+      "fecha": "13-04-2023",
+      "nota": 5
+    },
+    {
+      "autor": "Jack",
+      "texto": "Muy buen servicio,muy profesional",
+      "fecha": "13-04-2023",
+      "nota": 5
+    },
+    {
+      "autor": "Marta",
+      "texto": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ab dolorem consequatur omnis recusandae aspernatur saepe laboriosam sed.",
+      "fecha": "13-04-2023",
+      "nota": 5
+    },
+    {
+      "autor": "Aurelio",
+      "texto": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ab dolorem consequatur omnis recusandae aspernatur saepe laboriosam sed.",
+      "fecha": "13-04-2023",
+      "nota": 5
+    },
+    {
+      "autor": "Spancer",
+      "texto": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ab dolorem consequatur omnis recusandae aspernatur saepe laboriosam sed.",
+      "fecha": "13-04-2023",
+      "nota": 5
+    }
+  ]

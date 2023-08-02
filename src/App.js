@@ -7,6 +7,7 @@ import PerfilEdit from './views/PerfilEdit';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Barra from './components/Navigation';
+import FavoritesList from './components/FavoritesListView';
 
 
 const App = () => {
@@ -23,7 +24,10 @@ const App = () => {
                element={<RegisterView/>}/>
         <Route path= '/perfil'
                element={<PerfilView/>}/>  
-         
+        <Route path= '/perfiledit'
+               element={<PerfilEdit/>}/> 
+        <Route path= '/favoriteslist'
+               element={<FavoritesList/>}/>
      
 
 

@@ -35,6 +35,9 @@ const Navigation = () => {
 
         </Navbar.Collapse>
         <AvatarDropdown />
+        <Link to ='/favoriteslist' >
+         
+          </Link>
       </Container>
     
     </Navbar>
