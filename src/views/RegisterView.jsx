@@ -107,11 +107,11 @@ import React, { useState } from 'react';
            Confirmar contraseña:
           </label>
           <input
-            type="text"
+            type="password"
             className="form-control"
             id="confirmar contraseña"
             name="confirmar contraseña"
-            value={formData.nombre}
+            value={formData.contrasena}
             onChange={handleInputChange}
           />
           

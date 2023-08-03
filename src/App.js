@@ -10,6 +10,7 @@ import Barra from './components/Navigation';
 import FavoritesList from './components/FavoritesListView';
 
 
+
 const App = () => {
   return (
     <Router>

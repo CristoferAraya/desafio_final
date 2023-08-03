@@ -24,7 +24,7 @@ export const basePeluquerias = [
     telefono: '123456789',
     imagen: 'https://img.freepik.com/vector-premium/peluqueria-perros-gatos-simbolo-peluqueria-canina-simbolo-peluqueria-animales_662695-70.jpg?w=740',
     verificada: false,
-    estrellas: 3,
+    estrellas: 4,
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ export const basePeluquerias = [
     telefono: '123456789',
     imagen: 'https://img.freepik.com/vector-premium/peluqueria-perros-gatos-simbolo-peluqueria-canina-simbolo-peluqueria-animales_662695-70.jpg?w=740',
     verificada: true,
-    estrellas: 0,
+    estrellas: 2,
   },
   {
     id: 7,
