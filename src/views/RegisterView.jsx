@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Button, Container, Form } from 'react-bootstrap';
 
   const RegisterView = () => {
   const [formData, setFormData] = useState({
@@ -7,7 +8,7 @@ import React, { useState } from 'react';
     contrasena: '',
   });
 
-  const handleInputChange = (event) => {
+  const handleChange = (event) => {
     const { name, value } = event.target;
     setFormData({ ...formData, [name]: value });
   };
@@ -19,117 +20,83 @@ import React, { useState } from 'react';
   };
 
   return (
-    <div className="container mt-5">
-      <h1>Registarte</h1>
-      <form onSubmit={handleSubmit}>
-        <div className="mb-3">
-          <label htmlFor="nombre" className="form-label">
-            Nombre:
-          </label>
-          <input
-            type="text"
-            className="form-control"
-            id="nombre"
-            name="nombre"
+    <Container className='d-flex justify-content-center align-items-center mb-5'>
+      <div
+        className='w-50 rounded'
+        style={{
+          backgroundColor: '#F5F5F5',
+          margin: 'auto auto',
+          padding: '2rem',
+        }}
+      >
+        <h3>Registrate </h3>
+        <Form onSubmit={handleSubmit}>
+          <Form.Control
+            type='text'
+            placeholder='Nombre'
+            className='mb-3'
+            name='nombre'
             value={formData.nombre}
-            onChange={handleInputChange}
+            onChange={handleChange}
           />
-        </div>
-        <div className="mb-3">
-          <label htmlFor="nombre" className="form-label">
-            Nombre mascota:
-          </label>
-          <input
-            type="text"
-            className="form-control"
-            id="nombre mascota"
-            name="nombre mascota"
-            value={formData.nombre}
-            onChange={handleInputChange}
+          <Form.Control
+            type='text'
+            placeholder='Apellido'
+            className='mb-3'
+            name='apellidos'
+            value={formData.apellidos}
+            onChange={handleChange}
           />
-        </div>
-        <div className="mb-3">
-          <label htmlFor="Numero celular" className="form-label">
-            Número celular:
-          </label>
-          <input
-            type="text"
-            className="form-control"
-            id="numero celular"
-            name="numero celuar"
-            value={formData.nombre}
-            onChange={handleInputChange}
+           <Form.Control
+            type='text'
+            placeholder='Nombre mascota'
+            className='mb-3'
+            name='nombre mascota'
+            value={formData.mascota}
+            onChange={handleChange}
           />
+          <Form.Control
+            type='text'
+            placeholder='Email'
+            className='mb-3'
+            name='email'
+            value={formData.email}
+            onChange={handleChange}
+          />
+          <Form.Control
+            type='text'
+            placeholder='Teléfono'
+            className='mb-3'
+            name='telefono'
+            value={formData.telefono}
+            onChange={handleChange}
+          />
+          <Form.Control
+            type='password'
+            placeholder='Ingresa tu contraseña'
+            className='mb-3'
+            name='clave'
+            value={formData.clave}
+            onChange={handleChange}
+          />
+            <Form.Control
+            type='password'
+            placeholder='Repite contraseña'
+            className='mb-3'
+            name='repite contraseña'
+            value={formData.confirmacion}
+            onChange={handleChange}
+          />
+          <Button
+            type='submit'
+            variant='primary rounded-pill'
+          >
+            Registrarme
+          </Button>
           
-        </div>
-        <div className="mb-3">
-          <label htmlFor="correo" className="form-label">
-            Correo electrónico:
-          </label>
-          <input
-            type="email"
-            className="form-control"
-            id="correo"
-            name="correo"
-            value={formData.correo}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div className="mb-3">
-          <label htmlFor="confirmar correo electrónico" className="form-label">
-           Confirmar correo electrónico:
-          </label>
-          <input
-            type="text"
-            className="form-control"
-            id="confirmar correo"
-            name="confirmar correo"
-            value={formData.nombre}
-            onChange={handleInputChange}
-          />
-          
-        </div>
-        <div className="mb-3">
-          <label htmlFor="contrasena" className="form-label">
-            Contraseña:
-          </label>
-          <input
-            type="password"
-            className="form-control"
-            id="contrasena"
-            name="contrasena"
-            value={formData.contrasena}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div className="mb-3">
-          <label htmlFor="confirmar contaseña" className="form-label">
-           Confirmar contraseña:
-          </label>
-          <input
-            type="password"
-            className="form-control"
-            id="confirmar contraseña"
-            name="confirmar contraseña"
-            value={formData.contrasena}
-            onChange={handleInputChange}
-          />
-          
-        </div>
-        
-  
-          <div className='boton-registro'>
-            <button type="button" className="btn btn-primary">Registrate</button>
-          </div>
-        
-            <button type="button" className="btn btn-secondary">Cancelar</button>
-       
-    
-
-       
-      </form>
-      
-    </div>
+        </Form>
+      </div>
+    </Container>
   );
 };
 

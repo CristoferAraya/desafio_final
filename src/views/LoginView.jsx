@@ -9,7 +9,7 @@ const LoginView = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'blue',
+        backgroundColor: 'white',
         padding:'15rem'
       }}
     >
