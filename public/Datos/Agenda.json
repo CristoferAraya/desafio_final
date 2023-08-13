@@ -2,17 +2,17 @@
     {
       "fecha": "06-08-2023",
       "value": "10:00",
-      "estatus": "reservado"
+      "status": "reservado"
     },
     {
       "fecha": "06-08-2023",
       "value": "11:00",
-      "estatus": "reservado"
+      "status": "reservado"
     },
     {
       "fecha": "16-08-2023",
       "value": "14:00",
-      "estatus": "reservado"
+      "status": "reservado"
     },
     {
       "fecha": "18-08-2023",
@@ -32,22 +32,22 @@
     {
       "fecha": "16-09-2023",
       "value": "16:00",
-      "estatus": "disponible"
+      "status": "disponible"
     },
     {
       "fecha": "20-09-2023",
       "value": "14:00",
-      "estatus": "disponible"
+      "status": "disponible"
     },
     {
       "fecha": "20-09-2023",
       "value": "17:00",
-      "estatus": "disponible"
+      "status": "disponible"
     },
     {
       "fecha": "22-09-2023",
       "value": "12:00",
-      "estatus": "disponible"
+      "status": "disponible"
     },
     {
       "fecha": "22-09-2023",
@@ -62,16 +62,107 @@
     {
       "fecha": "24-09-2023",
       "value": "13:00",
-      "estatus": "disponible"
+      "status": "disponible"
     },
     {
       "fecha": "27-09-2023",
       "value": "10:00",
-      "estatus": "disponible"
+      "status": "disponible"
     },
     {
       "fecha": "30-09-2023",
       "value": "12:00",
-      "estatus": "disponible"
+      "status": "disponible"
+
+    },
+    {
+      "fecha": "30-09-2023",
+      "value": "15:00",
+      "status": "reservado"
+    },
+    {
+      "fecha": "30-09-2023",
+      "value": "17:00",
+      "status": "disponible"
+    },
+    {
+      "fecha": "30-09-2023",
+      "value": "19:00",
+      "status": "disponible"
+    },
+    {
+      "fecha": "01-10-2023",
+      "value": "10:00",
+      "status": "disponible"
+    },
+    {
+      "fecha":"01-10-2023",
+      "value":"12:00",
+      "status":"reservado"
+    },
+    {
+      "fecha": "01-10-2023",
+      "value": "14:00",
+      "status":"reservado"
+    },
+    {
+      "fecha": "01-10-2023",
+      "value": "16:00",
+      "status":"disponible"
+    },
+    {
+      "fecha": "01-10-2023",
+      "value": "18:00",
+      "status": "reservado"
+    },
+    {
+      "fecha": "02-10-2023",
+      "value": "10:00",
+      "status":"disponible"
+    },
+    {
+      "fecha":"02-10-2023",
+      "value":"12:00",
+      "status":"reservado"
+    },
+    {
+      "fecha" :"02-10-2023",
+      "value":"14:00",
+      "status":"disponible"
+    },
+    {
+      "fecha":"02-10-2023",
+      "value":"16:00",
+      "status" :"disponible"
+    },
+    {
+      "fecha" :"02-10-2023",
+      "value" :"18:00",
+      "status":"reservado"
+    },
+    {
+      "fecha" :"03-10-2023",
+      "value" :"10:00",
+      "status" :"disponible"
+    },
+    {
+      "fecha" :"03-10-2023",
+      "value" :"12:00",
+      "status" :"reservado"
+    },
+    {
+      "fecha" :"04-10-2023",
+      "value" :"14:00",
+      "status" :"disponible"
+    },
+    {
+      "fecha" :"04-10-2023",
+      "value" :"16:00",
+      "status" :"reservado"
+    },
+    {
+      "fecha" :"04-10-2023",
+      "value" :"18:00",
+      "status" :"reservado"
     }
   ]
