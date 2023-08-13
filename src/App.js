@@ -27,8 +27,10 @@ const App = () => {
                element={<PerfilView/>}/>  
         <Route path= '/perfiledit'
                element={<PerfilEdit/>}/> 
-        <Route path= '/favoriteslist'
+        <Route path= '/favoritos'
                element={<FavoritesList/>}/>
+       <Route path= '/historial'
+              element={<FavoritesList/>}/>
      
 
 

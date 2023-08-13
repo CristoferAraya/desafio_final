@@ -69,16 +69,16 @@ import { Link } from 'react-router-dom';
         </Dropdown.Item>
         <Dropdown.Item
           as={Link}
-          to={'/crear-peluqueria'}
+          to={'/PerfilEdit'}
           className='border-bottom'
         >
-          Editar Perfil
+          Editar perfil
         </Dropdown.Item>
         <Dropdown.Item
           href='#action/3.7'
           className='border-bottom'
         >
-          Cerrar Sesión
+       
         </Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
